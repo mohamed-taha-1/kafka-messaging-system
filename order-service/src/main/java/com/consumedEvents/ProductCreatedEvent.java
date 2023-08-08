@@ -1,5 +1,8 @@
 package com.consumedEvents;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ProductCreatedEvent {
 	private Long productId;
 	private String productName;

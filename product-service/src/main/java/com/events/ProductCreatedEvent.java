@@ -5,6 +5,6 @@ import lombok.Data;
 @Data
 public class ProductCreatedEvent {
 
-	private Long productId;
+	private int productId;
 	private String productName;
 }
